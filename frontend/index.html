@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Style Transformer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Transform Your Image</h1>
+        <input type="file" id="imageInput" accept="image/*">
+
+        <label for="styleSelect">Choose a style:</label>
+        <select id="styleSelect">
+            <option value="ghibli">Ghibli</option>
+            <option value="minecraft">Minecraft</option>
+            <option value="cartoon">Cartoon</option>
+            <option value="spiderverse">Spider-Verse</option>
+            <option value="pencil_sketch">Pencil Sketch</option>
+            <option value="watercolor">Watercolor</option>
+            <option value="oil_painting">Oil Painting</option>
+            <option value="van_gogh">Van Gogh</option>
+        </select>
+
+        <button id="transformButton">Transform</button>
+
+        <h2>Transformed Image:</h2>
+        <img id="outputImage" src="" alt="Your stylized image will appear here">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
